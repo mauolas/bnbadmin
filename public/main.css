@@ -22,6 +22,7 @@ a:visited {
 .container {
   margin: 0 auto;
   max-width: 960px;
+  height: cover;
 }
 
 /* Home */
@@ -30,7 +31,8 @@ a:visited {
 }
 .home .destinations {
   display: flex;
-  justify-content: space-between;
+  justify-content: normal;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 /* Navigation */

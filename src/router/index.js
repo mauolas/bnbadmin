@@ -18,7 +18,8 @@ const routes = [
         (destination) => destination.id === parseInt(to.params.id)
       );
       if (!exists) return { name: "NotFound" };
-    } /*
+    },
+    /*
     children: [
       {
         path: ":experienceSlug",
@@ -26,7 +27,7 @@ const routes = [
         component: () => import("@/views/DepaTemplate.vue"),
         props: (route) => ({ ...route.params, id: parseInt(route.params.id) }),
       },
-    ],*/,
+    ],*/
   },
   {
     path: "/destination/:id/:slug/:experienceSlug",
@@ -44,6 +45,14 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    return (
+      savedPosition ||
+      new Promise((resolve) => {
+        setTimeout(() => resolve({ top: 0 }), 300);
+      })
+    );
+  },
   linkActiveClass: "active-link",
 });
 

@@ -1,5 +1,6 @@
 <template>
   <TheNavegation />
+  <p class="nave"></p>
   <div class="container">
     <router-view v-slot="{ Component }">
       <transition name="slide" mode="out-in">
@@ -7,13 +8,15 @@
       </transition>
     </router-view>
   </div>
+  <div><TheFooter /></div>
 </template>
 
 <script>
 import TheNavegation from "@/components/TheNavegation.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
 export default {
-  components: { TheNavegation },
+  components: { TheNavegation, TheFooter },
 };
 </script>
 
@@ -26,5 +29,8 @@ export default {
 .slide-leave-to {
   opacity: 0;
   transform: translateX(-30%);
+}
+.nave {
+  height: 100px;
 }
 </style>

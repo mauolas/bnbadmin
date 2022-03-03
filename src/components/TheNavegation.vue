@@ -1,5 +1,11 @@
 <template>
   <div id="nav">
+    <img
+      src="https://storage.googleapis.com/bnbadmin/Fotos/logo.png"
+      alt="logo"
+      class="imagen2"
+    />
+    <div class="conti"></div>
     <router-link id="logo" to="/">Home</router-link>
     <router-link
       v-for="destination in destinations"
@@ -31,3 +37,15 @@ export default {
   },
 };
 </script>
+
+<style lang="css">
+.imagen2 {
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+}
+.conti {
+  width: 50px;
+}
+</style>

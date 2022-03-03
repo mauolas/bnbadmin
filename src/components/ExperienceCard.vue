@@ -1,6 +1,10 @@
 <template>
   <div class="card">
-    <img :src="`/images/${experience.image}`" :alt="experience.name" />
+    <img
+      :src="`/images/${experience.image}`"
+      :alt="experience.name"
+      class="cardigan"
+    />
     <span class="card_text">
       {{ experience.name }}
     </span>
@@ -14,3 +18,11 @@ export default {
   },
 };
 </script>
+
+<style lang="css">
+.cardigan {
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+}
+</style>

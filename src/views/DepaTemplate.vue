@@ -1,9 +1,16 @@
 <template>
   <section>
-    <h1>{{ experience.name }}</h1>
-    <img :src="`/images/${experience.image}`" alt="destination.name" />
-    <p>{{ experience.description }}</p>
-    <GoBack />
+    <div class="section-1">
+      <h1>{{ experience.name }}</h1>
+      <img
+        :src="`/images/${experience.image}`"
+        alt="destination.name"
+        class="img-depa"
+      />
+      <p>{{ experience.description }}</p>
+      <GoBack />
+      <div class="section-1"></div>
+    </div>
   </section>
 </template>
 
@@ -30,3 +37,15 @@ export default {
   },
 };
 </script>
+
+<style lang="css">
+.img-depa {
+  float: left;
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+}
+.section-1 {
+  display: inline-block;
+}
+</style>

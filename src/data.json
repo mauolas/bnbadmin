@@ -22,14 +22,112 @@
         {
           "name": "Depa. diamante Aura 007",
           "slug": "aura-007",
-          "image": "clubdeplaya.jpg",
+          "airbnb": "https://airbnb.com/h/depaacapulco",
+          "keypoints": [
+            "Alberca",
+            "Gimnasio",
+            "Sauna",
+            "Vapor",
+            "Jacuzzi",
+            "1 Cuarto",
+            "2 camas",
+            "Club de playa",
+            "Billar",
+            "Ping Pong",
+            "Cancha Tennis",
+            "Estacionamiento",
+            "4 personas",
+            "Wifi",
+            "Aire Acondicionado",
+            "Cocina"
+          ],
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/clubdeplaya.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura1.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura2.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura3.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura4.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura5.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura6.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura7.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura8.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura9.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura10.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura11.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura12.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura13.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura14.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/aura15.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/clubdeplaya.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura1.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura2.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura3.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura4.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura5.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura6.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura7.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura8.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura9.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura10.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura11.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura12.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura13.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura14.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Aura-007/resize/aura15.jpg"
+          ],
           "description":
             "Departamento en residencial Aura acapulco Diamante, con club de playa al cruzar la calle, Jacuzzi, cancha de tennis, gimnasio, sauna y centro de entretenimiento"
         },
         {
           "name": "Depa. diamante Tikal 605",
           "slug": "tikal-605",
-          "image": "tikal.jpg",
+          "keypoints": [
+            "Alberca",
+            "Gimnasio",
+            "Jacuzzi",
+            "2 Cuartos",
+            "3 camas",
+            "Club de playa",
+            "Estacionamiento",
+            "6 personas",
+            "Wifi (100mb)",
+            "Aire Acondicionado",
+            "Cocina",
+            "2 baños",
+            "Balcón"
+          ],
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal1.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal2.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal3.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal4.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal5.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal6.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal7.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal8.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal9.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal10.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal11.jfif",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/tikal12.jfif"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal1jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal2.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal3.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal4.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal5.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal6.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal7.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal8.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal9.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal10.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal11.jpg",
+            "https://storage.googleapis.com/bnbadmin/Fotos/Acapulco/Tikal-605/resize/tikal12.jpg"
+          ],
           "description":
             "Departamento pegado al mar, residencial Tikal acapulco Diamante, club de playa, dos cuartos, aire aconidcionado y muchas amenidades mas"
         }
@@ -57,14 +155,24 @@
         {
           "name": "Comming soon",
           "slug": "panama-city",
-          "image": "commingsoon.jpg",
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
           "description":
             "Comming soon"
         },
         {
           "name": "Comming soon",
           "slug": "panama-canal",
-          "image": "commingsoon.jpg",
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
           "description":
             "Comming soon"
         }
@@ -92,14 +200,24 @@
         {
           "name": "Comming soon",
           "slug": "panama-city",
-          "image": "commingsoon.jpg",
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
           "description":
             "Comming soon"
         },
         {
           "name": "Comming soon",
           "slug": "panama-city",
-          "image": "commingsoon.jpg",
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
           "description":
             "Comming soon"
         }
@@ -127,14 +245,24 @@
         {
           "name": "Comming soon",
           "slug": "panama-city",
-          "image": "commingsoon.jpg",
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
           "description":
             "Comming soon"
         },
         {
           "name": "Comming soon",
           "slug": "panama-city",
-          "image": "commingsoon.jpg",
+          "image": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
+          "image64": [
+            "https://storage.googleapis.com/bnbadmin/Fotos/commingsoon.jpg"
+          ],
           "description":
             "Comming soon"
         }

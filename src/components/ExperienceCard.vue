@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img
-      :src="`/images/${experience.image}`"
+      :src="`${experience.image[0]}`"
       :alt="experience.name"
       class="cardigan"
     />

@@ -1,21 +1,22 @@
 <template>
   <div>
     <section v-if="destination" class="destination">
-      <div>
-        <h2>Hello Department {{ $route.params.id }}</h2>
-        <h1>{{ destination.name }}</h1>
-        <GoBack />
-        <div class="destination-details">
+      <h1 class="title">{{ destination.name }}</h1>
+      <div class="wrapp">
+        <div>
           <img
             :src="`${destination.image[0]}`"
             alt="destination.name"
             class="img"
           />
+          <VuePictureSwipe :items="items"></VuePictureSwipe>
+        </div>
+        <div>
           <p>{{ destination.description }}</p>
+          <GoBack />
         </div>
       </div>
     </section>
-    <VuePictureSwipe :items="items"></VuePictureSwipe>
     <section class="experiences">
       <h2>Top experiences in {{ destination.name }}</h2>
       <div class="cards">
@@ -112,9 +113,18 @@ export default {
 
 <style lang="css">
 .img {
-  float: left;
+  float: center;
   width: 500px;
   height: 400px;
   background-size: cover;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: xx-large;
+}
+.wrapp {
+  display: grid;
+  grid-template-columns: 45% 45%;
 }
 </style>

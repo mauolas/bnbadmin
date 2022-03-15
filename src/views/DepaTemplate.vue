@@ -12,7 +12,9 @@
         <div>
           <p>{{ experience.description }}</p>
           <div class="myDiv2"></div>
-          <a :href="link">Link Airbnb: {{ link }}</a>
+          <a :href="link" target="_blank" rel="noopener noreferrer"
+            >Link Airbnb: {{ link }}</a
+          >
           <div class="myDiv2"></div>
           <GoBack />
         </div>

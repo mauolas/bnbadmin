@@ -5,10 +5,10 @@
     <div class="div-title">
       <h1 class="title1">Servicios de excelencia en la renta de inmuebles</h1>
       <img
-        src="https://storage.googleapis.com/bnbadmin/Fotos/logo.png"
+        src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logo_transparent_background.png"
         alt="logo"
-        width="300"
-        height="200"
+        width="350"
+        height="350"
       />
     </div>
     <p class="nave"></p>

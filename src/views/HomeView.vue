@@ -2,11 +2,11 @@
   <div class="Home">
     <h1 class="text-title">Personaliza el servicio a tu manera</h1>
     <p class="texto2">
-      Buscamos transformar tu inversion en algo mas, tanto si ya usabas airbnb y
+      Buscamos transformar tu inversión en algo mas, tanto si ya usabas Airbnb y
       quieres dejar de preocuparte. O buscas empezar a movilizar un poco tu
       departamento, en Bnbadmin buscamos convertir tu departamento en un ingreso
-      passivo efectivo. Proporcionandote un plan ideal para tus necesidades y
-      departamento.
+      pasivo efectivo. Contamos con el plan ideal para ti, con tarifas dinámicas
+      para que tu propiedad alcance un rendimiento mas alto.
     </p>
     <br />
     <br />
@@ -15,8 +15,8 @@
     <div class="div3">
       <div class="cuadritos">
         <p class="titulos2">Superhost</p>
-        <p class="parrafos2">Insignia de Superhost garantizada.</p>
-        <p class="parrafos2">
+        <p class="parrafos3">Insignia de Superhost garantizada.</p>
+        <p class="parrafos3">
           Es una categoría de Airbnb que destaca a los anfitriones más
           experimentados, hospitalarios y mejor valorados
         </p>
@@ -65,7 +65,7 @@
     <br />
     <br />
     <h1>Nuestros destinos</h1>
-    <div class="destinations">
+    <div class="destinos">
       <router-link
         v-for="destination in destinations"
         :key="destination.id"
@@ -141,9 +141,21 @@ export default {
   color: black;
   margin: 40px;
 }
+.parrafos3 {
+  font-family: "BOSQUE", Montserrat;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
 .imagen-p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 17px;
+}
+.destinos {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 </style>

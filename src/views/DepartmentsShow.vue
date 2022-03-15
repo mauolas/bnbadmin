@@ -3,7 +3,7 @@
     <section v-if="destination" class="destination">
       <h1 class="title">{{ destination.name }}</h1>
       <div class="wrapp">
-        <div>
+        <div style="overflow: hidden">
           <img
             :src="`${destination.image[0]}`"
             alt="destination.name"
@@ -11,8 +11,9 @@
           />
           <VuePictureSwipe :items="items"></VuePictureSwipe>
         </div>
-        <div>
-          <p>{{ destination.description }}</p>
+        <div></div>
+        <div class="center">
+          <p class="text">{{ destination.description }}</p>
           <GoBack />
         </div>
       </div>
@@ -125,6 +126,16 @@ export default {
 }
 .wrapp {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 50% 5% 45%;
+}
+.center {
+  align-content: center;
+}
+.text {
+  font-family: "BOSQUE", Montserrat;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin: 40px;
 }
 </style>

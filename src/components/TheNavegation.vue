@@ -2,7 +2,7 @@
   <div id="nav" class="grid">
     <div>
       <img
-        src="https://storage.googleapis.com/bnbadmin/Fotos/logo.png"
+        src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logo_transparent_background.png"
         alt="logo"
         class="imagen2"
       />
@@ -39,7 +39,7 @@ export default {
 <style lang="css">
 .imagen2 {
   float: left;
-  width: 200px;
+  width: 150px;
   height: 150px;
   background-size: cover;
 }

@@ -14,7 +14,11 @@
         <div></div>
         <div class="center">
           <p class="text">{{ destination.description }}</p>
-          <GoBack />
+          <div class="wrapp2">
+            <div></div>
+            <div><GoBack /></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </section>
@@ -128,8 +132,14 @@ export default {
   display: grid;
   grid-template-columns: 50% 5% 45%;
 }
+.wrapp2 {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+}
 .center {
   align-content: center;
+  background-color: beige;
+  align-items: center;
 }
 .text {
   font-family: "BOSQUE", Montserrat;

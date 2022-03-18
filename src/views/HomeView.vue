@@ -64,7 +64,7 @@
     <br />
     <br />
     <br />
-    <h1>Nuestros destinos</h1>
+    <h1 style="text-align: center">Nuestros destinos</h1>
     <div class="destinos">
       <router-link
         v-for="destination in destinations"
@@ -157,5 +157,7 @@ export default {
 .destinos {
   display: grid;
   grid-template-columns: 50% 50%;
+  align-content: center;
+  text-align: center;
 }
 </style>

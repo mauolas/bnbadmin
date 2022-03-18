@@ -2,6 +2,9 @@
 node_modules
 /dist
 
+# server files
+server.js
+cert/*
 
 # local env files
 .env.local

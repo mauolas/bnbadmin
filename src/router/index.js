@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import FunctionView from "../views/FunctionView.vue";
 import sourceData from "@/data.json";
 
 const routes = [
@@ -7,6 +8,11 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/funcion",
+    name: "funcion",
+    component: FunctionView,
   },
   {
     path: "/destination/:id/:slug",

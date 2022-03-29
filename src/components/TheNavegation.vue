@@ -10,6 +10,9 @@
     <div class="conti"></div>
     <div style="text-align: right">
       <router-link id="logo" style="color: black" to="/">Home</router-link>
+      <router-link id="logo2" style="color: black" to="/funcion">
+        Como funciona?</router-link
+      >
       <router-link
         style="color: black"
         v-for="destination in destinations"
@@ -54,5 +57,11 @@ export default {
 .grid {
   display: grid;
   grid-template-columns: 20% 20% 60%;
+}
+.logo2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 1 !important;
+  color: black;
 }
 </style>

@@ -20,7 +20,9 @@
   <div class="container">
     <router-view v-slot="{ Component }">
       <transition name="slide" mode="out-in">
-        <component :is="Component" :key="$route.path"></component>
+        <div :key="$route.name">
+          <component :is="Component" :key="$route.path"></component>
+        </div>
       </transition>
     </router-view>
   </div>

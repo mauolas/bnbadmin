@@ -1,5 +1,8 @@
 <template>
   <div><TheNavegation /></div>
+  <div class="justify-center flex bg-yellow-300 items-center h-screen">
+    <div class="text-4xl">Hello 👋🏼</div>
+  </div>
   <div class="div-img" v-if="routerConfig()">
     <div style="height: 30%"></div>
     <div class="div-title">

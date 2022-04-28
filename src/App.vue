@@ -32,7 +32,7 @@ export default {
   transform: translateX(-30%);
 }
 .nave {
-  height: 60px;
+  height: 100px;
 }
 .title1 {
   font-family: sans-serif;

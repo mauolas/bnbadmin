@@ -1,6 +1,5 @@
 <template>
   <div class="Home">
-    <p class="nave"></p>
     <div class="div-img flex h-screen">
       <div class="m-auto">
         <h1 class="title1">Servicios de excelencia en la renta de inmuebles</h1>

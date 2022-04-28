@@ -1,23 +1,6 @@
 <template>
   <div><TheNavegation /></div>
-  <div class="justify-center flex bg-yellow-300 items-center h-screen">
-    <div class="text-4xl">Hello 👋🏼</div>
-  </div>
-  <div class="div-img" v-if="routerConfig()">
-    <div style="height: 30%"></div>
-    <div class="div-title">
-      <h1 class="title1">Servicios de excelencia en la renta de inmuebles</h1>
-      <img
-        src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logo_transparent_background.png"
-        alt="logo"
-        width="350"
-        height="350"
-      />
-    </div>
-    <p class="nave"></p>
-  </div>
-  <p class="nave"></p>
-  <div class="container">
+  <div>
     <router-view v-slot="{ Component }">
       <transition name="slide" mode="out-in">
         <div :key="$route.name">
@@ -35,12 +18,6 @@ import TheFooter from "@/components/TheFooter.vue";
 
 export default {
   components: { TheNavegation, TheFooter },
-  methods: {
-    routerConfig() {
-      console.log(this.$route.path);
-      return this.$route.path === "/";
-    },
-  },
 };
 </script>
 
@@ -55,17 +32,7 @@ export default {
   transform: translateX(-30%);
 }
 .nave {
-  height: 100px;
-}
-.div-img {
-  background-image: url("https://storage.googleapis.com/bnbadmin/Fotos/departamentoportada.jpg");
-  background-size: cover;
-  height: 900px;
-  width: 100%;
-}
-.div-title {
-  grid-template-rows: 50%;
-  text-align: center;
+  height: 60px;
 }
 .title1 {
   font-family: sans-serif;

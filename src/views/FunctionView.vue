@@ -36,7 +36,13 @@
     <div></div>
   </div>
   <ExplicacionDetllada v-if="dialog != 1" />
-  <button v-if="dialog != 1" v-on:click="dialog = 1">Ver mas</button>
+  <button
+    v-if="dialog != 1"
+    v-on:click="dialog = 1"
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+  >
+    Ver mas
+  </button>
 </template>
 
 <script>

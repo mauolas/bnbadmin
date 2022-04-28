@@ -1,5 +1,19 @@
 <template>
   <div class="Home">
+    <p class="nave"></p>
+    <div class="block div-img content-center">
+      <div>
+        <h1 class="title1">Servicios de excelencia en la renta de inmuebles</h1>
+        <img
+          src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logo_transparent_background.png"
+          alt="logo"
+          width="350"
+          height="350"
+          class="content-center"
+        />
+      </div>
+      <p class="nave"></p>
+    </div>
     <h1 class="text-title">Personaliza el servicio a tu manera</h1>
     <p class="texto2">
       Buscamos transformar tu inversión en algo mas, tanto si ya usabas Airbnb y
@@ -158,6 +172,16 @@ export default {
   display: grid;
   grid-template-columns: 50% 50%;
   align-content: center;
+  text-align: center;
+}
+.div-img {
+  background-image: url("https://storage.googleapis.com/bnbadmin/Fotos/departamentoportada.jpg");
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+}
+.div-title {
+  grid-template-rows: 50%;
   text-align: center;
 }
 </style>

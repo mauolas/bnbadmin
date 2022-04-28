@@ -1,15 +1,15 @@
 <template>
   <div class="Home">
     <p class="nave"></p>
-    <div class="block div-img content-center">
-      <div>
+    <div class="div-img flex h-screen">
+      <div class="m-auto">
         <h1 class="title1">Servicios de excelencia en la renta de inmuebles</h1>
         <img
           src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logo_transparent_background.png"
           alt="logo"
           width="350"
           height="350"
-          class="content-center"
+          class="mx-auto"
         />
       </div>
       <p class="nave"></p>

@@ -15,7 +15,12 @@
         <li>Mensajes y limpieza.</li>
         <li>Mensajes, limpieza y super.</li>
       </ul>
-      <button v-on:click="dialog = 0">Ver mas</button>
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        v-on:click="dialog = 0"
+      >
+        Ver mas
+      </button>
     </div>
     <div></div>
     <div class="cuadritos2">

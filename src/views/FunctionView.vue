@@ -1,8 +1,8 @@
 <template>
-  <div v-if="dialog" class="rows2">
+  <div v-if="dialog" class="rows2 w-9/12 m-auto">
     <div></div>
     <div class="cuadritos2">
-      <h1 class="titulos2">Rentero</h1>
+      <h1 class="titulos2 text-center text-3xl">Rentero</h1>
       <p class="parrafos2">
         Nos encargamos de rentar tu inmueble por medio de la plataforma Airbnb,
         de esa forma nos aseguramos de la protección de tu inmueble y de
@@ -24,7 +24,7 @@
     </div>
     <div></div>
     <div class="cuadritos2">
-      <h1 class="titulos2">Huesped</h1>
+      <h1 class="titulos2 text-center text-3xl">Huesped</h1>
       <p class="parrafos2">
         Al alojarte en uno de nuestros departamentos, olvidate de pasar un mal
         rato o encontrarte con alguna sopresa indeseada. Todos los departamentos

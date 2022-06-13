@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="rows2">
+    <div class="rows22">
       <div>
         <h2>Tabla de keywords</h2>
         <div class="wrapp">
-          <div v-for="keypoint in keypoints" :key="keypoint" class="boxita">
+          <div v-for="keypoint in keypoints" :key="keypoint" class="boxita2">
             {{ keypoint }}
           </div>
         </div>
@@ -210,7 +210,7 @@ export default {
   display: grid;
   grid-template-columns: 45% 45%;
 }
-.boxita {
+.boxita2 {
   background-color: rgba(148, 212, 228, 0.582);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
@@ -221,7 +221,7 @@ export default {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.rows2 {
+.rows22 {
   display: grid;
   grid-template-columns: 30% 70%;
 }

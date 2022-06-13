@@ -1,12 +1,9 @@
 <template>
-  <div class="rows2">
+  <div v-if="dialog" class="rows2 w-9/12 m-auto">
     <div></div>
-    <div class="cuadritos">
-      <h1 class="titulos2">Rentero</h1>
+    <div class="cuadritos2">
+      <h1 class="titulos2 text-center text-3xl">Rentero</h1>
       <p class="parrafos2">
-        En BnBadmin nos preocupamos por ti, deja que tu inmueble se vuelva una
-        gran inversión y empieza a ganar mensualmente dinero extra.
-        <br />
         Nos encargamos de rentar tu inmueble por medio de la plataforma Airbnb,
         de esa forma nos aseguramos de la protección de tu inmueble y de
         renteros selectos para este programa.
@@ -17,25 +14,73 @@
         <li>Solo mensajes.</li>
         <li>Mensajes y limpieza.</li>
         <li>Mensajes, limpieza y super.</li>
-        <li>Mensajes, limpieza, super e incluso contabilidad.</li>
+      </ul>
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        v-on:click="dialog = 0"
+      >
+        Ver mas
+      </button>
+    </div>
+    <div></div>
+    <div class="cuadritos2">
+      <h1 class="titulos2 text-center text-3xl">Huesped</h1>
+      <p class="parrafos2">
+        Al alojarte en uno de nuestros departamentos, olvidate de pasar un mal
+        rato o encontrarte con alguna sopresa indeseada. Todos los departamentos
+        son previamente vistos y alineados con nuestros ideales.
+      </p>
+      <br />
+      <p class="parrafos3">Nuestros departamentos cuentan:</p>
+      <ul>
+        <li>Altos estandares de limpieza</li>
+        <li>Comunicación efectiva 24/7</li>
+        <li>Gente capacitada cerca para cualquier problema</li>
       </ul>
     </div>
     <div></div>
-    <div class="cuadritos">
-      <h1 class="titulos2">Huesped</h1>
-      <p>para los huespedes funciona asi</p>
-    </div>
-    <div></div>
   </div>
+  <ExplicacionDetllada v-if="dialog != 1" />
+  <button
+    v-if="dialog != 1"
+    v-on:click="dialog = 1"
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+  >
+    Ver mas
+  </button>
 </template>
+
+<script>
+import ExplicacionDetllada from "@/components/ExplicacionDetallada.vue";
+export default {
+  components: { ExplicacionDetllada },
+  data() {
+    return {
+      dialog: 1,
+    };
+  },
+};
+</script>
 
 <style>
 .rows2 {
   display: grid;
   grid-template-columns: 15% 30% 10% 30% 15%;
+  background-image: url("https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/depamar.jpg");
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5px;
 }
-.cuadritos {
-  height: cover;
+.cuadritos2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: fit-content;
   background-color: rgb(214, 205, 205);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -51,7 +96,7 @@
 }
 .parrafos2 {
   font-family: "BOSQUE", Montserrat;
-  text-align: center;
+  text-align: justify;
   font-size: 20px;
   color: black;
   margin: 20px;
@@ -64,5 +109,11 @@
   color: black;
   margin: 0ch;
   margin-left: 20px;
+}
+.imagen-pe2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 17px;
 }
 </style>

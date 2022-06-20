@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import FunctionView from "../views/FunctionView.vue";
+import DestinosView from "../views/DestinosView.vue";
+import CostosView from "../views/CostosView.vue";
 import sourceData from "@/data.json";
 
 const routes = [
@@ -13,6 +15,16 @@ const routes = [
     path: "/funcion",
     name: "funcion",
     component: FunctionView,
+  },
+  {
+    path: "/destinos",
+    name: "destinos",
+    component: DestinosView,
+  },
+  {
+    path: "/costos",
+    name: "costos",
+    component: CostosView,
   },
   {
     path: "/destination/:id/:slug",

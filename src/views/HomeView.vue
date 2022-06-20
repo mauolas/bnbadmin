@@ -3,11 +3,12 @@
     <div class="div-img flex h-screen">
       <div class="m-auto">
         <h1 class="title1">Servicios de excelencia en la renta de inmuebles</h1>
+        <br />
         <img
-          src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logo_transparent_background.png"
+          src="https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/logo/logosin%20letras.png"
           alt="logo"
-          width="350"
-          height="350"
+          width="300"
+          height="300"
           class="mx-auto"
         />
       </div>
@@ -22,25 +23,30 @@
       </div>
       <div></div>
       <div>
-        <InfoCard class="m-auto" />
+        <TranquilidadCard class="m-auto" />
       </div>
       <div></div>
       <div>
-        <InfoCard class="m-auto" />
+        <FlexibilidadCard class="m-auto" />
       </div>
     </div>
+    <br />
+    <br />
+    <br />
     <h1 class="text-title">Personaliza el servicio a tu manera</h1>
-    <p class="texto2 w-10/12 m-auto">
-      Buscamos transformar tu inversión en algo mas, tanto si ya usabas Airbnb y
-      quieres dejar de preocuparte. O buscas empezar a movilizar un poco tu
-      departamento, en Bnbadmin buscamos convertir tu departamento en un ingreso
-      pasivo efectivo. Contamos con el plan ideal para ti, con tarifas dinámicas
-      para que tu propiedad alcance un rendimiento mas alto.
+    <p class="texto2 w-7/12 m-auto">
+      Buscamos transformar tu inversión en algo más, tanto si ya usabas Airbnb y
+      quieres dejar de preocuparte, o buscas empezar a movilizar un poco tu
+      departamento.
+      <br />
+      En Bnbadmin buscamos convertir tu departamento en un ingreso pasivo
+      efectivo. Contamos con el plan ideal para ti, con tarifas dinámicas para
+      que tu propiedad alcance un rendimiento más alto.
     </p>
     <br />
     <br />
     <br />
-    <h1 class="text-title">Estandares altos garantizados</h1>
+    <h1 class="text-title">Estándares altos garantizados</h1>
     <div class="div3 w-10/12 m-auto">
       <div class="cuadritos">
         <p class="titulos2 m-auto">Superhost</p>
@@ -48,9 +54,9 @@
         <p class="parrafos3 w-10/12 m-auto text-2xl">
           Insignia de Superhost garantizada.
         </p>
-        <p class="parrafos3 w-10/12 m-auto text-2xl">
+        <p class="parrafos3 w-10/12 m-auto text-2xl text-center">
           Es una categoría de Airbnb que destaca a los anfitriones más
-          experimentados, hospitalarios y mejor valorados
+          experimentados, hospitalarios y mejor valorados.
         </p>
         <br />
         <img
@@ -64,11 +70,11 @@
       <div class="cuadritos">
         <p class="titulos2 w-10/12 m-auto">Calificación 4.5 estrellas</p>
         <br />
-        <p class="parrafos2 w-10/12 m-auto text-2xl">
-          Un trato único para los clientes, en el cual nos forzamos a los
-          estandares mas altos de atención para conseguir las mejores
-          calificaciones.
+        <p class="parrafos2 w-10/12 m-auto text-2xl text-center">
+          Un trato único para los clientes, brindamos los estándares más altos
+          de atención para conseguir las mejores calificaciones.
         </p>
+        <br />
         <br />
         <br />
         <br />
@@ -81,9 +87,9 @@
         />
       </div>
       <div class="cuadritos">
-        <p class="titulos2 w-10/12 m-auto">Personal en menos de 2 horas</p>
+        <p class="titulos2 w-10/12 m-auto">Personal a 2 horas</p>
         <br />
-        <p class="parrafos2 w-10/12 m-auto text-2xl">
+        <p class="parrafos2 w-10/12 m-auto text-2xl text-center">
           Nos aseguramos de tener el personal capacitado por la zona, para
           resolver cualquier problema que surja durante la estancia.
         </p>
@@ -100,36 +106,28 @@
     <br />
     <br />
     <br />
-    <h1 class="text-3xl text-center">Nuestros destinos</h1>
-    <div class="destinos text-center w-10/12 m-auto text-xl">
-      <router-link
-        v-for="destination in destinations"
-        :key="destination.id"
-        :to="{
-          name: 'destination.show',
-          params: { id: destination.id, slug: destination.slug },
-        }"
-      >
+    <div class="contactanos grid grid-cols-6 gap-4">
+      <br />
+      <h1 class="text-5xl text-center text-opacity-100 col-start-2 col-span-4">
         <br />
-        <h2 class="m-auto">{{ destination.name }}</h2>
-        <img
-          :src="`${destination.image[0]}`"
-          :alt="destination.name"
-          class="img-home m-auto"
-        />
-      </router-link>
+        Contáctanos
+      </h1>
+      <div class="col-start-2 col-span-3">
+        <ContactForm />
+      </div>
     </div>
-    <br />
-    <br />
   </div>
 </template>
 
 <script>
 import sourceData from "@/data.json";
-import InfoCard from "@/components/InfoCard.vue";
+import InfoCard from "@/components/tarjetas_home/InfoCard.vue";
+import ContactForm from "@/components/ContactForm.vue";
+import TranquilidadCard from "@/components/tarjetas_home/TranquilidadCard.vue";
+import FlexibilidadCard from "@/components/tarjetas_home/FlexibilidadCard.vue";
 
 export default {
-  components: { InfoCard },
+  components: { InfoCard, ContactForm, TranquilidadCard, FlexibilidadCard },
   data() {
     return {
       destinations: sourceData.destinations,
@@ -213,5 +211,15 @@ export default {
 .div-title {
   grid-template-rows: 50%;
   text-align: center;
+}
+.contactanos {
+  background-image: url("https://storage.googleapis.com/bnbadmin/Fotos/fotos-pagina/departamento-playa-del-carmen.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  opacity: 0.8;
+}
+.contactanos:hover {
+  opacity: 1;
 }
 </style>

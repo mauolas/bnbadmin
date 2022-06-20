@@ -11,8 +11,13 @@
     <div style="text-align: right">
       <router-link id="logo" style="color: black" to="/">Home</router-link>
       <router-link id="logo2" style="color: black" to="/funcion">
-        Como funciona?</router-link
+        ¿Cómo funciona?</router-link
       >
+      <router-link style="color: black" to="/destinos">
+        Nuestros destinos</router-link
+      >
+      <router-link style="color: black" to="/costos">Costos</router-link>
+      <!--
       <router-link
         style="color: black"
         v-for="destination in destinations"
@@ -24,6 +29,7 @@
       >
         {{ destination.name }}
       </router-link>
+      -->
     </div>
   </div>
 </template>
@@ -52,7 +58,6 @@ export default {
 }
 #nav .active-link {
   color: white;
-  border-bottom: 1px solid brown;
 }
 .grid {
   display: grid;
@@ -63,5 +68,6 @@ export default {
   font-size: 1.5rem;
   opacity: 1 !important;
   color: black;
+  border-bottom: 1px solid brown;
 }
 </style>

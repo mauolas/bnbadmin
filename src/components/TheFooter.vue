@@ -45,6 +45,7 @@
         En Bnbadmin nos comprometemos con la excelencia.
         <br />
         Cualquier duda o comentario contactarse al siguiente correo:
+        <br />
         <strong>bnb-center@bnbadmin.mx</strong>
       </p>
     </div>
